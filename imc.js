@@ -1,5 +1,5 @@
 function calcularIMC(peso, altura) {
-  let bmi = weight / (height + height);
+  let bmi = weight / (height * height);
   return bmi.toFixed(2);
 }
 
